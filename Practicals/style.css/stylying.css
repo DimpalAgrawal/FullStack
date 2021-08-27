@@ -1,0 +1,108 @@
+.box{
+    
+    height: 400px;
+    width: 278px;
+    border: 2px solid blue;
+    padding:20px;
+    margin-right: 20px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    text-align: justify;
+    border-radius: 20px;
+}
+.container{
+    display:inline-flex;
+    padding-left: 0px;
+    margin: 0px;
+}
+#button1{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: red;
+    padding: 13px;
+    border-radius: 20px;
+    
+    
+}
+#button2{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: red;
+    padding: 13px;
+    border-radius: 20px;
+
+}
+#button3{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: red;
+    padding: 13px;
+    border-radius: 20px;
+
+}
+#button4{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: red;
+    padding: 13px;
+    border-radius: 20px;
+
+}
+#box1{
+    background-color: white;
+}
+#box2{
+    background-color: white;
+}
+#box3{
+    background-color: white;
+}
+#box4{
+    background-color: white;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.box img{
+    width: 100px;
+    height: 150px;
+    width: 220px;
+    border-radius: 20px;
+}
+
+.box h3{
+    text-align: center;
+    margin: 10px;
+}
+body{
+    background-color: black;
+}
+
+#button1:hover{
+    background-color: blue;
+
+}
+#button2:hover{
+    background-color: blue;
+
+}
+#button3:hover{
+    background-color: blue;
+
+}
+#button4:hover{
+    background-color: blue;
+
+}
+
