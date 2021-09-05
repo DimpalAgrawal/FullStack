@@ -1,0 +1,326 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 1200px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+
+
+
+.header{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 70px;
+    border: 5px solid white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 1200px;
+    
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.Banner{
+    background-color: gray ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+    border: 5px solid white;
+
+}
+.circle{
+    background-color:white;
+    height: 406px;
+
+}
+.smallcircles{
+    background-color: skyblue;
+   height: 200px;
+   width: 213px;
+   border: 2px solid black;
+  
+   display: inline-flex;
+   border-radius: 50%;
+   margin: 40px;
+   
+
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.outer{
+    border: 2px solid red;
+    height: 450px;
+    width: 100%;
+}
+
+.left{
+    
+    height: 100%;
+    width: 40%;
+    border: 2px solid black;
+    float: left;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    
+    height: 100%;
+    width: 58%;
+    border: 2px solid green;
+    float: right;
+    
+    
+}
+
+.box{
+    height: 140px;
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 10px;
+    background-color:rgba(128, 128, 128, 0.308);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.footer{
+    border: 2px solid black;
+    height: 80px;
+    background-color: plum;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+.header ul{
+    display: inline-flex;
+}
+
+.header ul li{
+    padding: 20px;
+    width: 150px;
+    margin: 15px;
+}
+
+
+
+.header ul li a .fa{
+    margin: 5px;
+}
+
+.header ul li:hover,
+.active{
+    background-color:gold
+}
+
+.dropdown1{
+    display: none;
+}
+
+.header ul li:hover .dropdown1{
+     display: block;
+     position: absolute;
+     background-color: black;
+     margin-top: 15px;
+     margin-left: -30px;
+
+}
+
+.header ul li:hover .dropdown1 ul{
+    display: block;
+}
+
+.header ul li:hover .dropdown1 ul li{
+    background: transparent;
+    border-bottom: 1px solid gold;
+    width: 150px;
+}
+
+.header ul li .dropdown1 ul li a:hover{
+    color: gold;
+}
+
+
+
+
+.section{
+    display:inline-flex;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+
+
+.boxes{
+    border: 2px solid black;
+    height: 400px;
+    width: 278px;
+    display: inline-flex;
+    padding-top: 20px;
+    background-color: orange;
+}
+
+#button1{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: red;
+    padding: 13px;
+    border-radius: 20px;
+    
+    
+}
+#button2{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: red;
+    padding: 13px;
+    border-radius: 20px;
+
+}
+#button3{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: red;
+    padding: 13px;
+    border-radius: 20px;
+
+}
+#button4{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: red;
+    padding: 13px;
+    border-radius: 20px;
+
+}
+#box1{
+    background-color:darkblue;
+}
+#box2{
+    background-color:green;
+}
+#box3{
+    background-color: darkblue;
+}
+#box4{
+    background-color:green;
+}
+
+.boxes img{
+    width: 100px;
+    height: 150px;
+    width: 220px;
+    border-radius: 20px;
+}
+
+.boxes h3{
+    text-align: center;
+    margin: 10px;
+}
+
+
+#button1:hover{
+    background-color: blue;
+
+}
+#button2:hover{
+    background-color: blue;
+
+}
+#button3:hover{
+    background-color: blue;
+
+}
+#button4:hover{
+    background-color: blue;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
