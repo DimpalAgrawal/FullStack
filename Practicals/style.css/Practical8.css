@@ -29,6 +29,10 @@
     width: 1200px;
     
 }
+.header ul
+{
+    list-style: none;
+}
 
 .header ul li a{
     text-decoration: none;
@@ -106,7 +110,13 @@ h2{
     justify-content: center;
     align-items: center;
 }
-
+.box h3{
+    position: absolute;
+}
+.box img{
+    height: 140px;
+    width: 100%;
+}
 
 
 .footer{
@@ -183,7 +193,9 @@ html{
 .section{
     display:inline-flex;
     padding-left: 0px;
-    margin: 0px;
+    margin: 10px;
+    height: 400px;
+    width: 278px;
 }
 
 
@@ -195,6 +207,7 @@ html{
     display: inline-flex;
     padding-top: 20px;
     background-color: orange;
+    margin: 10px;
 }
 
 #button1{
@@ -282,22 +295,23 @@ html{
 
 }
 
+@media(min-width: 801px) and (max-width: 1199px){
+    .smallcircles img{
+        line-height: 70px;
+        display: inline-block;
+        width: 100%;
+        height: auto;
+    }
+    }
+
+  
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 

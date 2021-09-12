@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            
+            width: 100%;
+            margin: auto;
+            padding: 15px;
+        }
+
+        header {
+            height: 70px;
+            width: 100%;
+            background-color: gray;
+            display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+        nav ul {
+           list-style: none;
+           
+        }
+
+        nav ul li{
+            display: inline-block;
+            
+        }
+        nav ul li a{
+            display: block;
+            text-decoration: none;
+            color: white;
+            padding: 10px 15px;
+            font-size: 18px;
+        }
+
+        main{
+            width: 100%;
+        }
+
+        section.banner{
+            margin-top: 15px;
+            background-color: skyblue;
+            width: 100%;
+            height: 100vh;
+        }
+
+        section.sec-1{
+            display: flex;
+           justify-content: space-evenly;
+           align-items: center;
+        }
+        section.sec-1 .circle{
+            background-color: yellow;
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            display: inline-block;
+            margin: 15px;
+            border-radius: 50%;
+        }
+        section.sec-2{
+            width: 100%;
+        }
+
+        section.sec-2 article{
+            height: 500px;
+            width: 50%;
+            background-color: green;
+            
+            float: left;
+        }
+
+        section.sec-2 aside{
+            height: 500px;
+            width: 48%;
+            float: right;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        section.sec-2 aside .bar{
+            height: 50% ;
+            width: 100%;
+            background-color: palevioletred;
+            border: 2px solid black;
+            float: right;
+            margin-bottom: 5%;
+            
+        }
+        section.sec-2::after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="banner">
+
+            </section>
+            <section class="sec-1">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+
+            </section>
+
+            <section class="sec-2">
+                <article>
+
+                </article>
+                <aside>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </aside>
+            </section>
+            
+
+            <section class="sec-3"></section>
+
+
+        </main>
+    </div>
+    
+
+    
+</body>
+</html>
